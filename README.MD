@@ -1,7 +1,10 @@
 # 📓 Guia Completo de Configuração do Git e Integração com GitHub
 
 > 🚀 **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub!**
-
+ 
+          
+           
+   
 
 ## Passo 1: Instale o Git
 
