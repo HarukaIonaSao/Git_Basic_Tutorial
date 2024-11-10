@@ -3,10 +3,8 @@
 >  **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub.**
 
 <div class="link-container" style="text-align: center;">
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git" style="text-decoration: none;" >Instalação</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Configuração</a><br>
-    Aqui estão os links transformados conforme o formato que você pediu:
-
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git" style="text-decoration: none;" >Instalação</a>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Configuração</a>   
 [Instalação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git)
 
 [Autenticação](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#autentica%C3%A7%C3%A3o-no-github-https-ou-ssh)
@@ -413,7 +411,7 @@ Isso torna o histórico de commits mais legível e facilita o processo de revis�
 
 ---
 
-## 2. **Comitar na Frequência Correta**
+## 2. **Commits na Frequência Correta**
 
 Evite fazer commits grandes que englobam múltiplas alterações. Em vez disso, **faça commits de forma regular**, de preferência **sempre que terminar uma tarefa ou uma unidade de trabalho específica**. 
 
