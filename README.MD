@@ -1,8 +1,30 @@
 # 📓 Guia Completo de Configuração do Git e Integração com GitHub
 
-> 🚀 **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub!**
+>  **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub.**
+```markdown
+[Instalação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git)
+
+[Configuração](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Autenticação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Repositório remoto](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Substituição da branch master](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Renomear a branch master](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Criar conta no GitHub](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Subir o código para o GitHub (git push)](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Alterações no código](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Commits](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
+[Commits Semânticos](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+```
  
--[Autenticação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
            
    
@@ -200,8 +222,6 @@ Embora o GitHub tenha iniciado a mudança em 2020, o processo de substituição 
 #### 📝 **Resumindo**
 Embora a mudança não seja obrigatória para repositórios antigos, é importante adotar uma terminologia mais inclusiva, alinhada com as melhores práticas da comunidade. Se você ainda usa `master`, considere renomeá-la para `main` para garantir que seu projeto esteja alinhado com a evolução da linguagem e as práticas modernas de desenvolvimento.
 
-Aqui está um guia completo com um passo a passo para **criar uma conta no GitHub**, **subir o código para o GitHub**, e usar diferentes formas de fazer o upload do código. Vou incluir a estrutura de pastas, código simulado e os passos tanto usando o **Git Bash**, **Terminal** ou **PowerShell**, como também utilizando o **Gerenciador de Arquivos**.
-
 ---
 
 # 🚀 **Passo a Passo: Subindo Código para o GitHub**
@@ -223,8 +243,8 @@ Vamos simular a estrutura de um projeto simples com uma pasta `source` e um arqu
 meu-projeto/
 │
 ├── source/
-│   └── index.html
-│
+│   └── style.css
+│__ index.html
 └── README.md
 ```
 
@@ -313,41 +333,6 @@ meu-projeto/
 
 ---
 
-### **Renomeando a Branch `master` para `main` (se necessário)**
-
-Se você estiver trabalhando com um repositório antigo que ainda usa `master` como a branch principal, é recomendável renomeá-la para `main`. Isso pode ser feito facilmente com os seguintes comandos:
-
-1. **Renomear a branch local de `master` para `main`**:
-
-   ```bash
-   git branch -m master main
-   ```
-
-2. **Atualizar o repositório remoto**:
-
-   Envie a nova branch `main` para o GitHub:
-
-   ```bash
-   git push -u origin main
-   ```
-
-3. **Alterar a branch padrão no GitHub**:
-
-   No seu repositório GitHub, vá para **Settings** > **Branches** e altere a branch padrão de `master` para `main`.
-
-4. **Excluir a branch `master` remota** (opcional):
-
-   Se você não precisar mais da branch `master`:
-
-   ```bash
-   git push origin --delete master
-   ```
-
-7. **Verifique no GitHub**:
-   Agora você pode acessar o repositório no GitHub e ver seus arquivos lá!
-
----
-
 ### **Método 2: Usando o Gerenciador de Arquivos**
 
 Se você preferir uma interface gráfica, pode fazer isso sem usar o terminal. Embora a maneira mais comum de interagir com Git seja por meio da linha de comando, o GitHub permite carregar arquivos diretamente pela interface web.
@@ -406,8 +391,6 @@ Agora, o GitHub estará atualizado com as últimas alterações feitas no códig
 Agora você está pronto para usar o Git e o GitHub de forma eficiente para gerenciar seus projetos! 🚀
 
 Para garantir que suas alterações no código sejam bem organizadas e compreensíveis, é importante seguir boas práticas de **commit**. Isso inclui **fazer commits de forma frequente** e **usando commits semânticos**.
-
-Aqui está um guia explicando como fazer alterações, commitar corretamente e usar **commits semânticos**, com o link para o repositório sobre o tema:
 
 ---
 
@@ -477,7 +460,7 @@ Você pode ler mais sobre **commits semânticos** e sua importância neste repos
 
 Após fazer as alterações no seu código, você precisa **adicionar os arquivos modificados** ao Git e **fazer o commit**.
 
-### Passos para adicionar e commitar as alterações:
+### Passos para adicionar e subir as alterações:
 
 1. **Adicionar os arquivos alterados**:
 
