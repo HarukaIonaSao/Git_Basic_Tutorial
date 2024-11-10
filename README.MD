@@ -2,21 +2,8 @@
 
 >  **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub.**
 
-<style>
-    .link-container a {
-        text-decoration: none;
-        color: inherit;  /* Mantém a cor do texto padrão */
-        outline: none;   /* Remove o contorno do link */
-    }
-    .link-container a:visited,
-    .link-container a:active,
-    .link-container a:hover {
-        text-decoration: none;
-        color: inherit;
-    }
-</style>
 <div class="link-container" style="text-align: center;">
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git">Instalação</a><br>
+    <a style="text-decoration: none;  href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git">Instalação</a><br>
     <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Configuração</a><br>
     <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Autenticação</a><br>
     <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Repositório remoto</a><br>
