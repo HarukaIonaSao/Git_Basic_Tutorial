@@ -2,29 +2,20 @@
 
 >  **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub.**
 
+
 <div class="link-container" style="text-align: center;">
     <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git" style="text-decoration: none;" >Instalação</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Configuração</a><br>   
-[Autenticação](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#autentica%C3%A7%C3%A3o-no-github-https-ou-ssh)
-
-[Repositório remoto](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#vincular-o-reposit%C3%B3rio-local-ao-github)
-
-[Branch master](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#%EF%B8%8F-substitui%C3%A7%C3%A3o-da-branch-master)
-
-[Subir o código para o GitHub](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#-passo-a-passo-subindo-c%C3%B3digo-para-o-github)
-
-[Alterações no código](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#passo-4-como-gerenciar-o-reposit%C3%B3rio)
-
-[Commits](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#4-como-realizar-o-commit)
-
-[Commits Semânticos](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#3-usando-commits-sem%C3%A2nticos)
-
-[Resumo](https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#resumo-do-processo)
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Configuração</a><br>  
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#autentica%C3%A7%C3%A3o-no-github-https-ou-ssh" style="text-decoration: none;">Autenticação</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#vincular-o-reposit%C3%B3rio-local-ao-github" style="text-decoration: none;">Repositório remoto</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#%EF%B8%8F-substitui%C3%A7%C3%A3o-da-branch-master" style="text-decoration: none;">Branch master</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#-passo-a-passo-subindo-c%C3%B3digo-para-o-github" style="text-decoration: none;">Subir o código para o GitHub</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#passo-4-como-gerenciar-o-reposit%C3%B3rio" style="text-decoration: none;">Alterações no código</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#4-como-realizar-o-commit" style="text-decoration: none;">Commits</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#3-usando-commits-sem%C3%A2nticos" style="text-decoration: none;">Commits Semânticos</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic_Tutorial/tree/main?tab=readme-ov-file#resumo-do-processo" style="text-decoration: none;">Resumo</a>
 </div>
 
-
-
-        
  
 ## Passo 1: Instale o Git
 
