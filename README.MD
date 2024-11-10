@@ -12,8 +12,6 @@
 
 [Substituição da branch master]https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
-[Renomear a branch master]https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
 [Criar conta no GitHub](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
 [Subir o código para o GitHub (git push)](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
@@ -23,8 +21,8 @@
 [Commits](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
 [Commits Semânticos](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-[Resumo](```markdown
-[Instalação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git)
+
+[Resumo]()
 
 
           
