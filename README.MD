@@ -2,11 +2,8 @@
 
 > 🚀 **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub!**
  
--[Instalação](#Passo1)
-- [Configuração](#Passo2)
-- [Mizukage](#Autenticação no GitHub: HTTPS ou SSH)
-- [Raikage](#ancora4)
-- [Tsuchikage](#ancora4)
+-[Autenticação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+
            
    
 
