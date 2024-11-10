@@ -1,44 +1,37 @@
 # 📓 Guia Completo de Configuração do Git e Integração com GitHub
 
 >  **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub.**
-<a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git" style="color: red;">Instalação</a>
 
-<div style="text-align: left;">
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git" style="text-decoration: none;">Instalação</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Configuração</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Autenticação</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Repositório remoto</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Branch master</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Criar conta no GitHub</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Subir o código para o GitHub (git push)</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Alterações no código</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Commits</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Commits Semânticos</a><br>
-    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git" style="text-decoration: none;">Resumo</a>
+<style>
+    .link-container a {
+        text-decoration: none;
+        color: inherit;  /* Mantém a cor do texto padrão */
+        outline: none;   /* Remove o contorno do link */
+    }
+    .link-container a:visited,
+    .link-container a:active,
+    .link-container a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
+<div class="link-container" style="text-align: center;">
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git">Instalação</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Configuração</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Autenticação</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Repositório remoto</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Branch master</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Criar conta no GitHub</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Subir o código para o GitHub (git push)</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Alterações no código</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Commits</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Commits Semânticos</a><br>
+    <a href="https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git">Resumo</a>
 </div>
 
 
-[Instalação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git)
 
-[Configuração](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Autenticação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Repositório remoto](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Branch master](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Criar conta no GitHub](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Subir o código para o GitHub (git push)](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Alterações no código](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Commits](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Commits Semânticos](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-
-[Resumo](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)          
+        
  
 ## Passo 1: Instale o Git
 
