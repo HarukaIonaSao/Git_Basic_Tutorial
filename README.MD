@@ -1,7 +1,7 @@
 # 📓 Guia Completo de Configuração do Git e Integração com GitHub
 
 >  **Este guia ajuda você a configurar o Git com HTTPS e SSH e a vincular seu repositório local ao GitHub.**
-```markdown
+
 [Instalação](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-1-instale-o-git)
 
 [Configuração](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
@@ -10,9 +10,9 @@
 
 [Repositório remoto](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
-[Substituição da branch master](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+[Substituição da branch master]https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
-[Renomear a branch master](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
+[Renomear a branch master]https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
 [Criar conta no GitHub](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
@@ -23,12 +23,9 @@
 [Commits](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
 
 [Commits Semânticos](https://github.com/HarukaIonaSao/Git_Basic/blob/main/README.MD#passo-2-configure-usu%C3%A1rio-e-e-mail-no-git)
-```
+[Resumo]()
+          
  
-
-           
-   
-
 ## Passo 1: Instale o Git
 
 Se ainda não tem o Git, faça o download pelo [site oficial do Git](https://git-scm.com/) e siga as instruções de instalação.
